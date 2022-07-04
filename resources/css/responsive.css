@@ -1,0 +1,277 @@
+@media (max-width: 766px) {
+  .check-btn {
+    display: block;
+  }
+  .check-btn i {
+    font-size: 1.5rem;
+    color: white;
+  }
+  #check:checked ~ ul {
+    left: 0;
+  }
+  header nav .row > a > img {
+    height: auto;
+    width: 70%;
+  }
+  header {
+    height: 95vh;
+  }
+  .scroll-up {
+    display: none;
+  }
+  header .row > .hero-text-box {
+    box-sizing: border-box;
+    height: auto;
+    display: flex;
+    margin-top: 0;
+  }
+  header .row > .hero-text-box h1 {
+    font-size: 1.8rem;
+    margin-top: 28vh;
+  }
+  header .row > .hero-text-box > .btn-hero {
+    text-align: center;
+    width: 15rem;
+    padding: 1.2rem 0;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    margin-top: 2rem;
+  }
+  section {
+    width: 100%;
+    padding: 3rem 0;
+  }
+  .row {
+    width: 100%;
+  }
+  header nav {
+    z-index: 1000;
+    width: 100%;
+    height: auto;
+    background-color: #7d4b8f;
+    left: 0;
+    top: 0;
+    position: fixed;
+  }
+  header nav .navbar {
+    padding: 1rem 0;
+  }
+
+  header nav .navbar .nav-links {
+    z-index: 1000;
+    display: block;
+    position: fixed;
+    left: -200%;
+    top:9vh;
+    overflow-x: hidden;
+    background-color: rgb(125, 75, 143, 1);
+    width: 100vw;
+    height: 100vh;
+    transition: 0.4s all;
+    padding: 2rem;
+  }
+  .logo {
+    width: 20vw;
+  }
+  header nav .navbar .nav-links li {
+    background-color: rgb(0, 0, 0, 0);
+    padding-top: 1.8rem;
+  }
+  header nav .navbar > ul li :visited,
+  header nav .navbar > ul li :active,
+  header nav .navbar > ul li :hover {
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    transition: all 0.3s;
+  }
+  .services {
+    width: 100%;
+  }
+  .services .row > h2 {
+    width: 100%;
+    font-size: 1.5rem;
+  }
+  .row > h2::after {
+    width: 40%;
+  }
+
+  .service-icon {
+    height: auto;
+    width: 25%;
+  }
+  .box > h3 {
+    font-size: 1.5rem;
+  }
+  .box > p {
+    text-align: center;
+    line-height: 1.2rem;
+    font-size: 0.97rem;
+  }
+
+  .services > .row > p {
+    padding: 0.5rem 0;
+    line-height: 1.3rem;
+    font-size: 0.9rem;
+    font-weight: 400;
+    width: 100%;
+    margin: auto;
+  }
+
+  .team .row > h2 {
+    width: 100%;
+    font-size: 1.4rem;
+  }
+  .team > .row > p {
+    line-height: 5rem;
+    font-size: 1rem;
+    width: 100%;
+    line-height: 1.2rem;
+    font-weight: 300;
+  }
+  .man-icon {
+    height: auto;
+    width: 40%;
+  }
+  .team > .row > .box > p {
+    font-size: 1rem;
+    width: 100%;
+    line-height: 1.2rem;
+    font-weight: 300;
+  }
+  .team > .row > .box > span {
+    font-weight: 600;
+    font-size: 1rem;
+  }
+
+  .skill > .row > h2 {
+    font-size: 1.6rem;
+  }
+  .skill > .row > p {
+    width: 100%;
+    line-height: 1.2rem;
+    font-weight: 300;
+    font-size: 0.95rem;
+  }
+  .skill .row .box svg {
+    width: 15rem;
+  }
+  .row {
+    width: 95%;
+    margin: auto;
+  }
+  .portfolio .box > button {
+    padding: 0.5rem 0.8rem;
+  }
+  .portfolio > .row > p {
+    width: 100%;
+    line-height: 1.2rem;
+    font-weight: 300;
+    font-size: 0.94rem;
+    padding: 1.2rem 0;
+  }
+  .portfolio .box {
+    width: 100%;
+  }
+  .portfolio .button-load .btn-load-more {
+    text-align: center;
+    width: 15rem;
+    padding: 1.2rem 0;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+  }
+  .portf-div div > img {
+    height: auto;
+    width: 90%;
+  }
+  .about > .row h2 {
+    font-size: 1.3rem;
+  }
+  .about > .row > p {
+    width: 100%;
+    font-size: 1rem;
+    margin: auto;
+  }
+  .about .box {
+    text-align: center;
+    width: 100%;
+  }
+  .about .row .man-icon {
+    float: none;
+    width: 45%;
+  }
+  .about .row {
+    width: 100%;
+    text-align: center;
+  }
+  .client-review {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+  }
+  .client-review p {
+    line-height: 1.2rem;
+    padding-bottom: 1rem;
+    width: 100%;
+  }
+  .client-review h3 {
+    font-size: 1.3rem;
+    line-height: 1.2rem;
+    padding-bottom: 0.7rem;
+    width: 100%;
+  }
+  .client-review span {
+    display: inline-block;
+  }
+  .contact .row > h2 {
+    font-size: 1.3rem;
+  }
+  .contact .row > p {
+    font-size: 0.9rem;
+    width: 100%;
+    line-height: 1.2rem;
+  }
+  .contact .box:nth-child(2) {
+    margin-top: 0;
+  }
+  .contact .row > input {
+    margin-bottom: 0.7rem;
+    padding: 1.2rem;
+    width: 100%;
+  }
+  footer .row a {
+    font-size: 1.5rem;
+    display: block;
+  }
+  .btn-submit {
+    text-align: center;
+    width: 15rem;
+    padding: 1.2rem 0;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 1024px) {
+  header nav .navbar.logo {
+    width: 20rem;
+  }
+  .row {
+    max-width: 96%;
+    margin: auto;
+  }
+
+  header nav .navbar {
+    width: 94%;
+  }
+  header nav .navbar > ul li a {
+    padding: 6px 8px;
+  }
+  .service-icon {
+    padding: 0.7rem 0;
+    height: 4rem;
+    width: 25%;
+  }
+}
